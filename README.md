@@ -25,7 +25,7 @@ Format: replace <> for allowed parameters
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
 
 ## How to use
-check out the notebook [dataIO.ipynb]
+check out the notebook [dataIO.ipynb]()
 
 
 
