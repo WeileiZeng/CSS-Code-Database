@@ -16,16 +16,16 @@ File list
 |sample.tar| 45M|34582| only i1 |
 |css-codes-v1.0.tar|382M| i1 - i10 |
 
-sample file name:
+Sample file name:
 `codes/i1/n6/k4/n6k4d1-x1z1dx1dz1-1Gx.mm`
 
-Format:
-`codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>.json`
-`codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gx.mm`
-`codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
+Format: replace <> for allowed parameters
+- `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>.json`
+- `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gx.mm`
+- `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
 
 ## How to use
-check out the notebook
+check out the notebook [dataIO.ipynb]
 
 
 
