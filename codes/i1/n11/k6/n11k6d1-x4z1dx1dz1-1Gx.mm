@@ -1,0 +1,16 @@
+%%MatrixMarket matrix coordinate integer general
+4 11 14
+1 1 1
+1 3 1
+1 4 1
+1 7 1
+1 8 1
+2 2 1
+2 3 1
+2 7 1
+3 1 1
+3 10 1
+3 11 1
+4 4 1
+4 6 1
+4 11 1
