@@ -72,3 +72,20 @@ n=29:   [   5  5  4  4  4  4  4  3  3  3  3  3  3  3  3  2  2  2  2  2  2  2  2 
 n=30:   [   5  5  5  4  4  4  4  4  3  3  3  3  3  3  3  2  2  2  2  2  2  2  2  2  2  1  1]
 total number of codes: 15963
 ```
+
+Algorithm
+```
+for n=4..30
+    for rx=1..<n-2>
+    	generate random matrix Hx
+	solve for dual matrix G such that Hx*G^T=0
+	for rz=1..<n-rx-2>
+	    get Hz by concatenating G into rz rows 
+	    estimate parameters n,k,d,dx,dz，
+	    if unique
+	        save CSS code defined by parity check matrices Hx and Hz, 
+	    end if
+	end for
+    end for
+end for	    
+```
