@@ -5,3 +5,5 @@ jupyter:
 	docker run -it --rm --user 1011 --group-add users -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook:85f615d5cafa
 
 
+update-codes:
+	rsync -rP ../data/CSS-Codes/run3/i1/ codes/i1
