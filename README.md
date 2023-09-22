@@ -1,14 +1,13 @@
 # CSS-Code-Database
+Author: Weilei Zeng
 
-This is a data base of CSS codes, with `n=4..30` and distance up to 5/6. All parameters were saved, including k, x and z stabilizers,, in JSON format. Stabilizer matrices were saved in Matrix Market Format.
+This is a database of CSS codes, with `n=4..30` and distances up to 5/6. All parameters were saved, including k, x, and z stabilizers, in JSON format. Stabilizer matrices were saved in Matrix Market Format.
 
-##Purpose
-When doing research related to CSS codes, small samples codes are needed to get quick result or to construct product codes. A database for codes with various parameters will ease this process a lot.
+## Purpose
+When doing research related to CSS codes, small sample codes are needed to get quick results or to construct product codes. A database for codes with various parameters will ease this process a lot.
 
-## Data download folder:
-The folder `codes` only have enough codes ot generate the table. For more codes with duplicated parameters and other versions, please download from release page or Google Drive
-
-https://drive.google.com/drive/folders/1Ju3D4Yif_sBxDkR-sW2LkfWtnPXHSpSU?usp=sharing
+## Data download:
+The folder `codes` has enough codes to generate the table. For more codes with duplicated parameters and other versions, please download from the [GitHub release page](https://github.com/WeileiZeng/CSS-Code-Database/releases) or [Google Drive](https://drive.google.com/drive/folders/1Ju3D4Yif_sBxDkR-sW2LkfWtnPXHSpSU?usp=sharing)
 
 File list
 |Filename| Size| Codes count|Content|
@@ -32,10 +31,10 @@ Format: replace <> for allowed parameters
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
 
 ## How to use
-check out the notebook [dataIO.ipynb]()
+We provide python sample code. Check out the notebook [dataIO.ipynb]()
 
 ## [[n,k,d]] table
-run3 as of Sept 20, 2023. v1.3
+version 1.3, (run3 as of Sept 20, 2023)
 
 Row index for n, column index for k, and element for d
 
@@ -91,3 +90,6 @@ for n=4..30
     end for
 end for	    
 ```
+
+## LICENSE
+This database complies with the MIT License. It is open to use and build upon it.
