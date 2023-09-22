@@ -12,8 +12,8 @@ The folder `codes` has enough codes to generate the table. For more codes with d
 File list
 |Filename| Size| Codes count|Content|
 |-|-|-|-|
-|sample.tar| 45M|34582| only i1 |
-|css-codes-v1.0.tar|382M| i0 - i9 |
+|sample.tar| 45M|34,582| only i1 |
+|css-codes-v1.0.tar|382M| 400,000+ |i0 - i9 |
 
 Folder structure:
 
