@@ -6,7 +6,7 @@ This is a data base of CSS codes, with `n=4..30` and distance up to 5/6. All par
 When doing research related to CSS codes, small samples codes are needed to get quick result or to construct product codes. A database for codes with various parameters will ease this process a lot.
 
 ## Data download folder:
-The folder `codes` only have sample codes. For more data and other versions, please download from [Google Drive](i1/n6/k4/n6k4d1-x1z1dx1dz1-1Gx.mm)
+The folder `codes` only have enough codes ot generate the table. For more codes with duplicated parameters and other versions, please download from release page or Google Drive
 
 https://drive.google.com/drive/folders/1Ju3D4Yif_sBxDkR-sW2LkfWtnPXHSpSU?usp=sharing
 
@@ -14,23 +14,25 @@ File list
 |Filename| Size| Codes count|Content|
 |-|-|-|-|
 |sample.tar| 45M|34582| only i1 |
-|css-codes-v1.0.tar|382M| i1 - i10 |
+|css-codes-v1.0.tar|382M| i0 - i9 |
 
-Sample file name:
-`codes/i1/n6/k4/n6k4d1-x1z1dx1dz1-1Gx.mm`
+Folder structure:
+
+![](tree.png)
+
+
+Sample file name (replace `n6k4d1-x1z1dx1dz1-1` for `<code>`):
+- `codes/i1/n6/k4/n6k4d1-x1z1dx1dz1-1Gx.mm`
+- `codes/i1/n6/k4/n6k4d1-x1z1dx1dz1-1Gz.mm`
+- `codes/i1/n6/k4/n6k4d1-x1z1dx1dz1-1.json`
 
 Format: replace <> for allowed parameters
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>.json`
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gx.mm`
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
 
-
-
-
 ## How to use
 check out the notebook [dataIO.ipynb]()
-
-
 
 ## [[n,k,d]] table
 run3 as of Sept 20, 2023. v1.3
@@ -77,9 +79,9 @@ Algorithm
 ```
 for n=4..30
     for rx=1..<n-2>
-    	generate random matrix Hx
-	solve for dual matrix G such that Hx*G^T=0
 	for rz=1..<n-rx-2>
+	    generate random matrix Hx
+	    solve for dual matrix G such that Hx*G^T=0
 	    get Hz by concatenating G into rz rows 
 	    estimate parameters n,k,d,dx,dz，
 	    if unique
