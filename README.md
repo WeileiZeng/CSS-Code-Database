@@ -36,6 +36,8 @@ We provide python sample code. Check out the notebook [dataIO.ipynb]()
 ## [[n,k,d]] table
 version 1.3, (run3 as of Sept 20, 2023)
 
+_Disclaimer_: This table displays collected statistics from heavy random sampling. Theoretically, it is only the lower distance bound for each (k,d) set, though it matches the maximum distance for most entries.
+
 Row index for n, column index for k, and element for d
 
 ```
