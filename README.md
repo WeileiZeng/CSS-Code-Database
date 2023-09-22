@@ -31,7 +31,7 @@ Format: replace <> for allowed parameters
 - `codes/i<>/n<>/k<>/n<>k<>d<>-x<>z<>dx<>dz<>-<>Gz.mm`
 
 ## How to use
-We provide python sample code. Check out the notebook [dataIO.ipynb]()
+The data comply with Matrix Market and JSON format and can be extracted by any IO tools. Here we provide sample code in Python. Check out the notebook [dataIO.ipynb]()
 
 ## [[n,k,d]] table
 version 1.3, (run3 as of Sept 20, 2023)
